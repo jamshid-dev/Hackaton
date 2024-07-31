@@ -1,5 +1,7 @@
 export default function App() {
   return (
-    <div></div>
+    <div>
+      <h1>Lorem ipsum dolor sit.</h1>
+    </div>
   );
 }
