@@ -424,7 +424,7 @@ export default function Abaut() {
             <div className="in">
             <h1>Cantak</h1>
                 <input value={name} onChange={(e) => setName(e. target.value)} className='l' type="text" placeholder='FullName'/>
-                <input value={tel} nChange={(e) => setTel(e. target.value)} className='l' type="text" placeholder='Tel' />
+                <input value={name} onChange={(e) => setName(e. target.value)} className='l' type="text" placeholder='FullName'/>
                 <TextArea value={massage} nChange={(e) => setMassage(e. target.value)}  rows={4} placeholder='Massage' />
             </div>
             </form>
