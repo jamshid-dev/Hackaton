@@ -11,10 +11,16 @@
   "dependencies": {
     "@material-tailwind/react": "2.1.8",
     "antd": "^5.19.4",
+    "axios": "^1.7.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.52.1",
     "react-router-dom": "^6.25.1",
+<<<<<<< HEAD
     "sass": "^1.77.8",
+=======
+    "react-toastify": "^10.0.5",
+>>>>>>> 9db3f4e248016f5fcc4668435b5b80d6cd4e75cf
     "scss": "^0.2.4"
   },
   "devDependencies": {
