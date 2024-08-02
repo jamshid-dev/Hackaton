@@ -11,14 +11,16 @@ export default function RuyUtish() {
     });
   };
   return (
-    <div>
-      {/* <h1>create new product</h1> */}
-      <form onSubmit={handleSubmit(ruyUtish)}>
-        <input type="text" placeholder="Nomi" {...register("nomi")} />
-        <input type="text" placeholder="Narxi" {...register("narxi")} />
-        <input type="text" placeholder="Qanaqa turda" {...register("rangi")} />
-        <button>Junatish</button>
-      </form>
-    </div>
+    // <h1>create new product</h1>
+    <>
+      <div className="mx-auto my-0">
+        <form onSubmit={handleSubmit(ruyUtish)} >
+          <input className="" type="text" placeholder="Nomi" {...register("nomi")} /> <br />
+          <input className="" type="text" placeholder="Narxi $" {...register("narxi")} /> <br />
+          <input className="" type="text" placeholder="Qanaqa turda" {...register("rangi")} /> <br />
+          <button className="border-black">Junatish</button>
+        </form>
+      </div>
+    </>
   );
 }
